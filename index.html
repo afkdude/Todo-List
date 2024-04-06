@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>To do List</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>To do List</title>
+  </head>
+  <body>
+    <!-- nav heading section  -->
+    <nav class="navigation-container">
+      <div class="pfp-img">
+        <img src="images/profile.png" alt="" />
 
-  
+        <a href="https://github.com/afkdude" target="_blank"
+          ><h1>Shubham Amrawat</h1></a
+        >
+      </div>
+    </nav>
 
+    <div class="todo-container">
+      <div class="container-heading">
+        <h1>Todo App</h1>
+      </div>
 
-  <script src="practice.js"></script>
-  <script src="script.js"></script>
-
-</body>
+      <div class="inner-container">
+        <input id="todo-input"  type="text" placeholder="Enter ToDo here" />
+        <button onclick="addtodo();">Add</button>
+        <p id="todo-items"></p>
+      </div>
+    </div>
+    <script src="practice.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

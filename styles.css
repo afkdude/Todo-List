@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+body{
+  /* background-image: linear-gradient(to left top, #9cb8e3, #a99de4, #ce77c9, #ec458e, #eb123e); */
+  /* background-image: linear-gradient(to right , #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+  background-color: #76ABAE;
+ 
+}
+
+.navigation-container{
+  display: flex;
+  background-color: #EEEEEE;
+  align-items: center;
+ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.pfp-img img{
+  width: 4rem; 
+
+}
+
+.pfp-img{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+.pfp-img a{
+  text-decoration: none;
+
+  font-style: italic;
+  color: #31363F;
+}
+.pfp-img a:hover{
+  transform:scale(1.1);
+  transition: 0.2s;
+  color: #222831 ;
+}
+
+
+/*  to do container  */
+
+
+.todo-container{
+  display: flex;
+  /* justify-content: center; */
+  padding-top: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
