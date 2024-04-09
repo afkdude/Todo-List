@@ -57,14 +57,12 @@ function displayItems() {
     let { item, dueDate } = todoList[i]; //destructing 
 
     newHtml += ` 
-    <div class = "del-container">
+   
       
          <span>${item}</span>
          <span>${dueDate}</span>
-         <button id="del-btn"onclick = " todoList.splice(${i},1);
+         <button id="del-btn" class="buttons"   onclick = " todoList.splice(${i},1);
            displayItems();">Delete</button>
-      
-    </div>
      `;
   }
   containerElement.innerHTML = newHtml;

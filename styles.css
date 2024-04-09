@@ -1,46 +1,157 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
-body{
+body {
   /* background-image: linear-gradient(to left top, #9cb8e3, #a99de4, #ce77c9, #ec458e, #eb123e); */
   /* background-image: linear-gradient(to right , #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
-  background-color: #76ABAE;
- 
+  background-color: #76abae;
 }
 
-.navigation-container{
+.navigation-container {
   display: flex;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   align-items: center;
- box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
-.pfp-img img{
-  width: 4rem; 
-
+.pfp-img img {
+  width: 4rem;
 }
 
-.pfp-img{
+.pfp-img {
   display: flex;
   flex-direction: row;
   gap: 1rem;
   align-items: center;
 }
-.pfp-img a{
+.pfp-img a {
   text-decoration: none;
 
   font-style: italic;
-  color: #31363F;
+  color: #31363f;
 }
-.pfp-img a:hover{
-  transform:scale(1.1);
+.pfp-img a:hover {
+  transform: scale(1.1);
   transition: 0.2s;
-  color: #222831 ;
+  color: #222831;
 }
-
 
 /*  to do container  */
 
+/* 
+.del-container{
+  display: flex;
+ 
+   margin-top: 2rem;
+   background-color: #EEEEEE;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+
+.content-main{
+  width: 65vw;
+  background-color: #EEEEEE;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.inner-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.heading-main{
+  text-align: center;
+}
+
+
+button{
+  padding: 1rem;
+  width: 100px;
+  font-size: 1rem;
+  border-radius: 9px;
+}
+
+input{
+  padding: 1rem;
+  width: 150px;
+  font-size: 1rem;
+}
+
+#add-btn{
+  
+  border: 2px solid rgb(101, 165, 5);
+
+}
+
+#del-btn{
+ 
+  border: 2px solid rgb(250, 46, 46);
+
+} */
+
+.heading-main{
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+  /* background-color: aliceblue; */
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.todo-container {
+  margin-top: 1rem;
+}
+
+.inputs {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.buttons {
+  padding: 1rem;
+  width: 135px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+span {
+  font-size: 1.5rem;
+}
+
+#del-btn {
+  border: 2px solid red;
+}
+#del-btn:hover {
+  border: none;
+  color: white;
+  background-color: red;
+  transition: 0.5s;
+  font-size: 1.3rem;
+}
+
+#add-btn {
+  border: 3px solid rgb(12, 184, 12);
+}
+
+#add-btn:hover {
+  border: none;
+  color: white;
+  background-color: rgb(12, 184, 12);
+  transition: 0.5s;
+  font-size: 1.3rem;
+}

@@ -18,22 +18,32 @@
       </div>
     </nav>
 
-  
-        <h1>Todo App</h1>
-    
+    <!-- <div class="content-main">
+      <h1 class="heading-main">Todo App</h1>
+      <div class="inner-content">
+        
 
-     
-     
-          <input id="todo-input" type="text" placeholder="Enter ToDo here" />
+        <input id="todo-input" type="text" placeholder="Enter ToDo here" />
 
-          <input type="date" name="" id="todo-date" />
+        <input type="date" name="" id="todo-date" />
 
-          <button id="add-btn" onclick="addtodo();">Add</button>
-      
+        <button id="add-btn" onclick="addtodo();">Add</button>
+      </div>
 
-        <div class="todo-container"></div>
-      
+      <div class="todo-container"></div>
+    </div> -->
 
+    <h1 class="heading-main">Todo App</h1>
+
+    <div class="grid-container">
+      <input id="todo-input"  class="inputs"   type="text" placeholder="Enter ToDo here" />
+
+      <input type="date" name="" id="todo-date"  class="inputs" />
+
+      <button id="add-btn"  class="buttons"  onclick="addtodo();">Add</button>
+    </div>
+
+    <div class="todo-container grid-container"></div>
 
     <script src="practice.js"></script>
     <script src="script.js"></script>
